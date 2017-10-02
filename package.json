@@ -1,6 +1,6 @@
 {
-  "name": "angular-piwik",
-  "version": "1.4.0",
+  "name": "ang-piwik",
+  "version": "1.0.0",
   "scripts": {
     "test": "grunt"
   },
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rnanania/angular-piwik.git"
+    "url": "git+ssh://git@github.com/rnanania/ang-piwik.git"
   },
   "keywords": [
     "angular",
@@ -38,7 +38,7 @@
   "author": "rnanania <nanania.rohit@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rnanania/angular-piwik/issues"
+    "url": "https://github.com/rnanania/ang-piwik/issues"
   },
-  "homepage": "https://github.com/rnanania/angular-piwik#readme"
+  "homepage": "https://github.com/rnanania/ang-piwik#readme"
 }

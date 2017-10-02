@@ -1,4 +1,4 @@
-# angular-piwik  [![Build Status](https://travis-ci.org/rnanania/angular-piwik.png?branch=master)](https://travis-ci.org/rnanania/angular-piwik)
+# ang-piwik  [![Build Status](https://travis-ci.org/rnanania/ang-piwik.png?branch=master)](https://travis-ci.org/rnanania/ang-piwik)
 
 Angular service for piwik tracking
 
@@ -7,32 +7,32 @@ https://github.com/mike-spainhower/angular-piwik
 
 ### Overview
 
-Angular-piwik provides the methods of the piwik javascript tracker for angular projects.  Tracking config and actions can be accessed declaratively as attributes of the ngp-piwik html element, or programmatically using the Piwik angular service.
+ang-piwik provides the methods of the piwik javascript tracker for angular projects.  Tracking config and actions can be accessed declaratively as attributes of the ngp-piwik html element, or programmatically using the Piwik angular service.
 
 ## Install
 
 ###Bower
 
-    # bower install angular-piwik
+    # bower install ang-piwik
 
 or in your bower.json (auto)
 
-    #bower install --save angular-piwik
+    #bower install --save ang-piwik
 
 or in your bower.json (manual)
 
     "dependencies": {
-      "angular-piwik": "~1.4.0"
+      "ang-piwik": "~1.0.0"
       ...
     }
 
 ### CDN
 
-Point to the release on Github's CDN - https://cdn.rawgit.com/rnanania/angular-piwik/v1.4.0/dist/angular-piwik.js
+Point to the release on Github's CDN - https://cdn.rawgit.com/rnanania/ang-piwik/v1.0.0/dist/angular-piwik.js
 
 ###Manual
 
-Grab `angular-piwik.js` from https://github.com/rnanania/angular-piwik/raw/master/dist/angular-piwik.js
+Grab `angular-piwik.js` from https://github.com/rnanania/ang-piwik/raw/master/dist/angular-piwik.js
 
 
 ## Use
@@ -61,7 +61,7 @@ Once this element is present in the page, you may inject the <code>Piwik</code> 
 ### See Also
 
 * Piwik JavaScript Tracker - http://piwik.org/docs/javascript-tracking/
-* Test Coverage Report - https://github.com/rnanania/angular-piwik
+* Test Coverage Report - https://github.com/rnanania/ang-piwik
 
 
 ### Contribute
