@@ -10,9 +10,14 @@ before_script:
 
 script: "npm test"
 
+branches:
+  only:
+  - master
+
 deploy:
   provider: releases
-  file: "angular-piwik.js"
+  file: dist/angular-piwik.js
   skip_cleanup: true
   on:
     tags: true
+    repo: rnanania/ang-piwik
