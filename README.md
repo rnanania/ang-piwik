@@ -1,6 +1,6 @@
 # ang-piwik  [![Build Status](https://travis-ci.org/rnanania/ang-piwik.png?branch=master)](https://travis-ci.org/rnanania/ang-piwik)
 
-Angular service for piwik tracking
+Angular service for piwik tracking with some custon chnages to original.
 
 ### Original Source from
 https://github.com/mike-spainhower/angular-piwik
