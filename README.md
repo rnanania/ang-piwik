@@ -22,13 +22,13 @@ or in your bower.json (auto)
 or in your bower.json (manual)
 
     "dependencies": {
-      "ang-piwik": "~1.0.0"
+      "ang-piwik": "~2.0.0"
       ...
     }
 
 ### CDN
 
-Point to the release on Github's CDN - https://cdn.rawgit.com/rnanania/ang-piwik/v1.0.0/dist/angular-piwik.js
+Point to the release on Github's CDN - https://cdn.rawgit.com/rnanania/ang-piwik/v2.0.0/dist/angular-piwik.js
 
 ###Manual
 

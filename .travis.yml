@@ -9,3 +9,10 @@ before_script:
   - npm install -g grunt-cli
 
 script: "npm test"
+
+deploy:
+  provider: releases
+  file: "angular-piwik.js"
+  skip_cleanup: true
+  on:
+    tags: true
