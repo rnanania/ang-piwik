@@ -172,8 +172,9 @@ mod.directive 'ngpPiwik', [
 
                 attrs.$observe k, (val) ->
                   push_paq(method, val)
-
+            ###
             $window['_paq'].push ['trackPageView']
+            ###
         }
 
     return dir_def_obj
