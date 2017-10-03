@@ -38,7 +38,7 @@ describe 'Piwik Directives', ->
 
   it 'should create call queue', ->
     expect(win['_paq']).toBeDefined()
-    expect(win['_paq'].length).toEqual(4)
+    expect(win['_paq'].length).toEqual(3)
 
   it 'should recognize and process arrays', ->
     cmd = win['_paq'].shift() until cmd?[0] == 'setDomains'
