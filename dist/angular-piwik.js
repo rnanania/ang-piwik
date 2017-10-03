@@ -126,12 +126,13 @@
           $document[0].body.appendChild(script_elem);
           return {
             post: function(scope, elem, attrs) {
-              var k, v;
+              var k, v, _results;
+              _results = [];
               for (k in attrs) {
                 if (!__hasProp.call(attrs, k)) continue;
                 v = attrs[k];
                 if (/^ngp/.test(k)) {
-                  (function(k, v) {
+                  _results.push((function(k, v) {
                     var method;
                     method = k[3].toLowerCase() + k.slice(4);
                     if (!(__indexOf.call(PiwikActionMethods, method) >= 0)) {
@@ -141,10 +142,14 @@
                     return attrs.$observe(k, function(val) {
                       return push_paq(method, val);
                     });
-                  })(k, v);
+                  })(k, v));
                 }
               }
-              return $window['_paq'].push(['trackPageView']);
+              return _results;
+              /*
+                          $window['_paq'].push ['trackPageView']
+              */
+
             }
           };
         }
