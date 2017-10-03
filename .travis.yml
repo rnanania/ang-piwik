@@ -10,14 +10,13 @@ before_script:
 
 script: "npm test"
 
-branches:
-  only:
-  - master
-
 deploy:
   provider: releases
+  user: $TRAVIS_BUILD_USER
+  password: $TRAVIS_BUILD_PASS
   file: dist/angular-piwik.js
   skip_cleanup: true
   on:
     tags: true
     repo: rnanania/ang-piwik
+    all_branches: true
