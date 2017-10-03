@@ -12,8 +12,7 @@ script: "npm test"
 
 deploy:
   provider: releases
-  user: $TRAVIS_BUILD_USER
-  password: $TRAVIS_BUILD_PASS
+  api_key: $TRAVIS_BUILD_TOKEN
   file: dist/angular-piwik.js
   skip_cleanup: true
   on:
